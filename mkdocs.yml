@@ -96,6 +96,7 @@ nav:
   - Creating workflows: workflow-creation.md
   - Monitoring workflows: workflow-monitoring.md
   - Managing workflow transitions: workflow-transitions.md
-  - Project details and version control: project-version-control.md
+  - Project details: project.md
+  - Version control: diff.md
   - OmegaT coordination: omegat-coordination.md
   - Operational checklist: operational-checklist.md
