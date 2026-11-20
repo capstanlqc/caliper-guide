@@ -1,7 +1,7 @@
 site_name: cAliper User Guide
 site_description: User guide for the cAliper translation management system
 docs_dir: docs
-site_url: https://capstanlqc.github.com/caliper-guide
+site_url: https://capstanlqc.github.io/caliper-guide
 theme:
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
