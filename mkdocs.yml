@@ -1,0 +1,101 @@
+site_name: cAliper User Guide
+site_description: User guide for the cAliper translation management system
+docs_dir: docs
+site_url: https://capstanlqc.github.com/caliper-guide
+theme:
+  name: material
+  logo: _assets/img/cApStAn_symbolesensemble_blanc.png
+  favicon: _assets/favicon.ico
+  palette:
+    # Palette: default
+    - media: "(prefers-color-scheme)"
+      scheme: capstan
+      primary: midnight-blue
+      accent: indigo
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: capstan
+      primary: midnight-blue
+      accent: indigo
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark-mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: midnight-blue
+      accent: indigo
+      toggle:
+        icon: material/eye
+        name: Switch to light-mode
+  features:
+    - navigation.path ## doesn't work!
+    ## - toc.integrate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.prune
+    - navigation.top
+    - navigation.sections
+    ## - navigation.tabs
+    #- navigation.tabs.sticky
+    ##- navigation.expand
+    - toc.follow
+    - navigation.indexes
+    - content.footnote.tooltips
+    - "hidden": "tech"  
+markdown_extensions:
+  - toc:
+      # baselevel: 2
+      permalink: True
+      # separator: "-"
+      toc_depth: 2-3
+  # - md_in_html
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - tables
+  # - footnotes
+  # - pymdownx.snippets
+  # - pymdownx.details
+  # - pymdownx.critic
+  # - pymdownx.caret
+  # - pymdownx.keys
+  # - pymdownx.mark
+  # - pymdownx.tilde
+  # - pymdownx.betterem
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
+  # - pymdownx.inlinehilite
+  # - pymdownx.snippets
+  # - pymdownx.superfences
+extra_css:
+  - _assets/css/extra.css
+copyright: Copyright &copy; 2026 cApStAn
+extra:
+  generator: false
+
+
+
+nav:
+  - Introduction: 00_introduction.md
+  - Preparation: 01_preparation.md
+  # - Preparing the translation environment:
+  #     - Language assets: preparing/language-assets.md
+  #     - Users: preparing/users.md
+  #     - Workflow types: preparing/workflow-types.md
+  - Managing jobs: jobs.md
+  - Creating workflows: workflow-creation.md
+  - Monitoring workflows: workflow-monitoring.md
+  - Managing workflow transitions: workflow-transitions.md
+  - Project details and version control: project-version-control.md
+  - OmegaT coordination: omegat-coordination.md
+  - Operational checklist: operational-checklist.md
