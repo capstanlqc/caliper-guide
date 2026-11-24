@@ -136,4 +136,4 @@ The NPM must review the suggestions for each locale, and change the selection as
 
 
 
-[Next: Jobs :material-arrow-right:](02_jobs.md){ .md-button }
+[Next: Jobs :material-arrow-right:](02_jobs.md){ .md-button .md-button-right}

@@ -38,4 +38,4 @@ To create workflows for a job, click on the **Create workflows** button.
 [See Job assignment :material-link-variant:](workflow.md#job-assignment)
 -->
 
-[Next: Workflows :material-arrow-right:](03_workflows.md){ .md-button }
+[Next: Workflows :material-arrow-right:](03_workflows.md){ .md-button .md-button-right}

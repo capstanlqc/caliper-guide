@@ -74,3 +74,6 @@ The survey platform can then collect the target files through the API. This comp
 
 
 > If the job was created by a user upload, the translated batch becomes available for download in cAliper in the Files section of the workflow.
+
+
+[Next: Projects :material-arrow-right:](05_projects.md){ .md-button .md-button-right}

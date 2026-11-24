@@ -13,3 +13,4 @@ caliper-user-guide-mkdocs.zip
 *.bak
 chapters
 site/**
+.DS_Store

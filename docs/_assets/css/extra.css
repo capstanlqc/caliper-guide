@@ -109,3 +109,7 @@ p.auto {
 [data-md-color-scheme="slate"] {
   --md-typeset-a-color: #7CCBFF;
 }
+
+.md-typeset p:has(> .md-button-right) {
+    text-align: right;
+}

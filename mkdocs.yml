@@ -89,13 +89,13 @@ extra:
 plugins:
 - search
 - autorefs
-- exporter:
-    formats:
-      pdf:
-        enabled: true
-        aggregator:
-          enabled: true
-          output: pdf/caliper-manual.pdf
+# - exporter:
+#     formats:
+#       pdf:
+#         enabled: true
+#         aggregator:
+#           enabled: true
+#           output: pdf/caliper-manual.pdf
 - print-site
 
 nav:

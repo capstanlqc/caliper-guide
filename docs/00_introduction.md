@@ -2,7 +2,7 @@
 
 ### What is cAliper?
    
-cAliper is cApStAn’s translation management system. cAliper has been designed to be used for managing translation workflows in thte context of large multilingual assessments and questionnaires, from the initial reception of the source materials up to the delivery of translated materials to the client. It exposes an API specifically conceived for integration with survey platforms for the purpose of file exchanges (batch releases and deliveries), although it can also be used independently.
+cAliper is cApStAn’s translation management system. cAliper has been designed to be used for managing translation workflows in the context of large multilingual assessments and questionnaires, from the initial reception of the source materials up to the delivery of translated materials to the client. It exposes an API specifically conceived for integration with survey platforms for the purpose of file exchanges (batch releases and deliveries), although it can also be used independently.
 
 ### Purpose and audience
 
@@ -41,3 +41,6 @@ In this guide, *Program Administrator*, *Administrator* and *Project Coordinator
 3. Users perform the tasks assigned to them. For steps configured for OmegaT, the assigned user authenticates, downloads the project and works in OmegaT.
 4. When an OmegaT user finalises their task, cAliper saves the work, commits the target files and normally advances the workflow to the next step.
 5. When the workflow reaches its final step, cAliper notifies the survey platform that the target-language batch is ready to be collected.
+
+
+[Next: Preparation :material-arrow-right:](01_preparation.md){ .md-button .md-button-right}

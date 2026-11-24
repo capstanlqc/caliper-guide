@@ -193,3 +193,7 @@ Select the workflows you want to apply the same action to.
 
 !!! tip
     Before applying a bulk action, check the selected rows carefully, including their locales, workflow types and current steps. Do not assume that selecting workflows on one page selects matching workflows on other pages or outside the current filtered view.
+
+
+
+[Next: Transitions :material-arrow-right:](04_transitions.md){ .md-button .md-button-right}
