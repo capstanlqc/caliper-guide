@@ -1,5 +1,6 @@
 site_name: cAliper User Guide
 site_description: User guide for the cAliper translation management system
+version: 1.0.0
 docs_dir: docs
 site_url: https://capstanlqc.github.io/caliper-guide
 theme:
@@ -51,7 +52,7 @@ markdown_extensions:
       # baselevel: 2
       permalink: True
       # separator: "-"
-      toc_depth: 2-3
+      toc_depth: 2-4
   # - md_in_html
   - admonition
   - attr_list
@@ -68,8 +69,10 @@ markdown_extensions:
   # - pymdownx.tilde
   # - pymdownx.betterem
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # - pymdownx.highlight:
   #     anchor_linenums: true
   #     line_spans: __span
@@ -83,7 +86,17 @@ copyright: Copyright &copy; 2026 cApStAn
 extra:
   generator: false
 
-
+plugins:
+- search
+- autorefs
+- exporter:
+    formats:
+      pdf:
+        enabled: true
+        aggregator:
+          enabled: true
+          output: pdf/caliper-manual.pdf
+- print-site
 
 nav:
   - Introduction: 00_introduction.md
@@ -92,11 +105,11 @@ nav:
   #     - Language assets: preparing/language-assets.md
   #     - Users: preparing/users.md
   #     - Workflow types: preparing/workflow-types.md
-  - Managing jobs: jobs.md
-  - Creating workflows: workflow-creation.md
-  - Monitoring workflows: workflow-monitoring.md
-  - Managing workflow transitions: workflow-transitions.md
-  - Project details: project.md
-  - Version control: diff.md
-  - OmegaT coordination: omegat-coordination.md
-  - Operational checklist: operational-checklist.md
+  - Jobs: 02_jobs.md
+  - Workflows: 03_workflows.md
+  - Transitions: 04_transitions.md
+  # - Creating workflows: workflow-creation.md
+  # - Monitoring workflows: workflow-monitoring.md
+  # - Managing transitions: workflow-transitions.md
+  - Projects: 05_projects.md
+  - Support: 06_support.md

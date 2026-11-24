@@ -101,3 +101,11 @@ p.auto {
   -ms-hyphens: auto;
   hyphens: auto;
 }
+
+[data-md-color-scheme="capstan"] {
+  --md-typeset-a-color: #005A9C;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #7CCBFF;
+}

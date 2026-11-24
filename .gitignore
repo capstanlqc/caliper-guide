@@ -8,8 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
-caliper-user-guide-mkdocs-chapters/**
+caliper-user-guide-mkdocs*
 caliper-user-guide-mkdocs.zip
 *.bak
-chapters/**
+chapters
 site/**
