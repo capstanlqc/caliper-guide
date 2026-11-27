@@ -1,0 +1,1262 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="User guide for the cAliper translation management system">
+      
+      
+      
+        <link rel="canonical" href="https://capstanlqc.github.io/caliper-guide/print_page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../_assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+      
+        <title>Print Site - cAliper User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2010h5.5L14%204.5zM5%203h10l6%206v10a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V5c0-1.11.89-2%202-2m0%209v2h14v-2zm0%204v2h9v-2z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M5%203c-1.11%200-2%20.89-2%202v14c0%201.11.89%202%202%202h14c1.11%200%202-.89%202-2V5c0-1.11-.89-2-2-2zm0%202h14v14H5zm2%202v2h10V7zm0%204v2h10v-2zm0%204v2h7v-2z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%2015.5A3.5%203.5%200%200%201%208.5%2012%203.5%203.5%200%200%201%2012%208.5a3.5%203.5%200%200%201%203.5%203.5%203.5%203.5%200%200%201-3.5%203.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49%201c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506%200%200%200%2014%202h-4c-.25%200-.46.18-.5.42l-.37%202.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49%200-.61.22l-2%203.46c-.13.22-.07.49.12.64L4.57%2011c-.04.34-.07.67-.07%201s.03.65.07.97l-2.11%201.66c-.19.15-.25.42-.12.64l2%203.46c.12.22.39.3.61.22l2.49-1.01c.52.4%201.06.74%201.69.99l.37%202.65c.04.24.25.42.5.42h4c.25%200%20.46-.18.5-.42l.37-2.65c.63-.26%201.17-.59%201.69-.99l2.49%201.01c.22.08.49%200%20.61-.22l2-3.46c.12-.22.07-.49-.12-.64z%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202a7%207%200%200%200-7%207c0%202.38%201.19%204.47%203%205.74V17a1%201%200%200%200%201%201h6a1%201%200%200%200%201-1v-2.26c1.81-1.27%203-3.36%203-5.74a7%207%200%200%200-7-7M9%2021a1%201%200%200%200%201%201h4a1%201%200%200%200%201-1v-1H9z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202C6.5%202%202%206.5%202%2012s4.5%2010%2010%2010%2010-4.5%2010-10S17.5%202%2012%202m-2%2015-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m15.07%2011.25-.9.92C13.45%2012.89%2013%2013.5%2013%2015h-2v-.5c0-1.11.45-2.11%201.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2%202%200%200%200-2-2%202%202%200%200%200-2%202H8a4%204%200%200%201%204-4%204%204%200%200%201%204%204%203.2%203.2%200%200%201-.93%202.25M13%2019h-2v-2h2M12%202A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10c0-5.53-4.5-10-10-10%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%2014h-2V9h2m0%209h-2v-2h2M1%2021h22L12%202z%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202c5.53%200%2010%204.47%2010%2010s-4.47%2010-10%2010S2%2017.53%202%2012%206.47%202%2012%202m3.59%205L12%2010.59%208.41%207%207%208.41%2010.59%2012%207%2015.59%208.41%2017%2012%2013.41%2015.59%2017%2017%2015.59%2013.41%2012%2017%208.41z%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%2013h-2V7h2m-2%208h2v2h-2m4.73-14H8.27L3%208.27v7.46L8.27%2021h7.46L21%2015.73V8.27z%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2012h-4v-2h4m0%206h-4v-2h4m6-6h-2.81a6%206%200%200%200-1.82-1.96L17%204.41%2015.59%203l-2.17%202.17a6%206%200%200%200-2.83%200L8.41%203%207%204.41l1.62%201.63C7.88%206.55%207.26%207.22%206.81%208H4v2h2.09c-.05.33-.09.66-.09%201v1H4v2h2v1c0%20.34.04.67.09%201H4v2h2.81c1.04%201.79%202.97%203%205.19%203s4.15-1.21%205.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20z%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8%203a2%202%200%200%200-2%202v4a2%202%200%200%201-2%202H3v2h1a2%202%200%200%201%202%202v4a2%202%200%200%200%202%202h2v-2H8v-5a2%202%200%200%200-2-2%202%202%200%200%200%202-2V5h2V3m6%200a2%202%200%200%201%202%202v4a2%202%200%200%200%202%202h1v2h-1a2%202%200%200%200-2%202v4a2%202%200%200%201-2%202h-2v-2h2v-5a2%202%200%200%201%202-2%202%202%200%200%201-2-2V5h-2V3z%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M14%2017h3l2-4V7h-6v6h3M6%2017h3l2-4V7H5v6h3z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/print-site.css">
+    
+      <link rel="stylesheet" href="../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../_assets/css/extra.css">
+    
+    <script>__md_scope=new URL("/caliper-guide/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="capstan" data-md-color-primary="midnight-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#00_introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="cAliper User Guide" class="md-header__button md-logo" aria-label="cAliper User Guide" data-md-component="logo">
+      
+  <img src="../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            cAliper User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Print Site
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="capstan" data-md-color-primary="midnight-blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3m0-4.5c5 0 9.27 3.11 11 7.5-1.73 4.39-6 7.5-11 7.5S2.73 16.39 1 12c1.73-4.39 6-7.5 11-7.5M3.18 12a9.821 9.821 0 0 0 17.64 0 9.821 9.821 0 0 0-17.64 0"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="capstan" data-md-color-primary="midnight-blue" data-md-color-accent="indigo"  aria-label="Switch to dark-mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark-mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3m0-4.5c5 0 9.27 3.11 11 7.5-1.73 4.39-6 7.5-11 7.5S2.73 16.39 1 12c1.73-4.39 6-7.5 11-7.5M3.18 12a9.821 9.821 0 0 0 17.64 0 9.821 9.821 0 0 0-17.64 0"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="midnight-blue" data-md-color-accent="indigo"  aria-label="Switch to light-mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light-mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="cAliper User Guide" class="md-nav__button md-logo" aria-label="cAliper User Guide" data-md-component="logo">
+      
+  <img src="../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
+
+    </a>
+    cAliper User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_jobs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jobs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workflows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_transitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transitions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Support
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#00_introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#01_preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 Preparation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#02_jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Jobs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#03_workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Workflows
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#04_transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 Transitions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#05_projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 Projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#06_support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7 Support
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="3">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table of Contents</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="00_introduction" heading-number="1"><h1 id="00_introduction-00_introduction">Introduction</h1><h3 id="what-is-caliper">What is cAliper?<a class="headerlink" href="#00_introduction-what-is-caliper" title="Permanent link">&para;</a></h3>
+<p>cAliper is cApStAn’s translation management system. cAliper has been designed to manage translation workflows in the context of large multilingual assessments and questionnaires, from the initial reception of the source materials up to the delivery of translated materials to the client. It exposes an API specifically conceived for integration with survey platforms for the purpose of file exchanges (batch releases and deliveries. It can also be used independently.</p>
+<h3 id="00_introduction-purpose-and-audience">Purpose and audience<a class="headerlink" href="#00_introduction-purpose-and-audience" title="Permanent link">&para;</a></h3>
+<p>This guide explains how to use cAliper, <a href="https://www.capstan.be">cApStAn</a>'s translation management system (TMS), to prepare and manage translation workflows. It is intended primarily for National Project Managers (NPMs), with additional instructions for tasks that can only be performed by a Program Administrator (PA), also referred to as a superuser (SU).</p>
+<p>The guide covers the management of jobs, language assets, users, workflow types, workflows, project information and version history. It also explains the parts of the OmegaT process that an NPM needs to coordinate. It is not an OmegaT user manual: linguists and other language-task users should consult the separate OmegaT guides for instructions on working in the editor.</p>
+<h3 id="00_introduction-end-users">End users<a class="headerlink" href="#00_introduction-end-users" title="Permanent link">&para;</a></h3>
+<p>cAliper has two main administrative users:</p>
+<ul>
+<li><strong>Program Administrator (PA / SU):</strong> has program-wide administrative responsibilities. The PA manages workflow types and defines the user roles and scopes available in the system. The PA can view workflows for all locales and may perform any of the actions that NPM can do.</li>
+<li><strong>National Project Manager (NPM):</strong> manages the translation work for their country or region. The NPM can prepare language assets, add users within the roles and scopes defined by the PA, create and monitor workflows, and perform permitted workflow transitions. The NPM sees only the locales within their country or region.</li>
+</ul>
+<p>In this guide, <em>Program Administrator</em>, <em>Administrator</em> and <em>Project Coordinator</em> refer to the PA role. <em>Project Manager</em> refers to the NPM role.</p>
+<h3 id="00_introduction-key-concepts">Key concepts<a class="headerlink" href="#00_introduction-key-concepts" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Job</strong></td>
+<td>A batch received by cAliper (e.g. submitted by a survey platform or a user) and made available for workflow creation.</td>
+</tr>
+<tr>
+<td><strong>Batch</strong></td>
+<td>A set of files that belong together and are processed as a whole.</td>
+</tr>
+<tr>
+<td><strong>Locale</strong></td>
+<td>A specific language variant, such as French (Belgium), i.e. <code>fr-BE</code>.</td>
+</tr>
+<tr>
+<td><strong>Workflow</strong></td>
+<td>The sequence of steps used to process one locale of a job/batch. Each workflow corresponds to a locale+combination.</td>
+</tr>
+<tr>
+<td><strong>Workflow type</strong></td>
+<td>A reusable template that defines the steps in a workflow and other properties.</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>The translation project hosted in the version-control server and made available to users for their assigned language task.</td>
+</tr>
+<tr>
+<td><strong>Language asset</strong></td>
+<td>A resource used to support language tasks, such as a translation memory (TM) or bilingual glossary.</td>
+</tr>
+<tr>
+<td><strong>OmegaT</strong></td>
+<td>The CAT tool used for language tasks configured as OmegaT steps.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="00_introduction-overall-process">Overall process<a class="headerlink" href="#00_introduction-overall-process" title="Permanent link">&para;</a></h3>
+<ol>
+<li>The survey platform submits a batch to cAliper, as well as the list of expected locales. The batch becomes a queued job.</li>
+<li>The NPM opens the job and creates a workflow for that batch and for each requested locale, selecting a workflow type and confirming the language assets.</li>
+<li>Users perform the tasks assigned to them. For steps configured for OmegaT, the assigned user authenticates, downloads the project and works in OmegaT.</li>
+<li>When an OmegaT user finalises their task, cAliper saves the work, commits the target files and advances the workflow to the next step.</li>
+<li>When the workflow reaches its final step, cAliper notifies the survey platform that the target-language batch is ready to be collected.</li>
+</ol>
+<p><a class="md-button md-button-right" href="#01_preparation">Next: Preparation <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="01_preparation" heading-number="2"><h1 id="01_preparation-program-preparation">Program preparation<a class="headerlink" href="#01_preparation-program-preparation" title="Permanent link">&para;</a></h1>
+<p>Before creating workflows, the <a href="#00_introduction-end-users">PA and NPM</a> should make sure that the necessary resources are available. Workflow-type administration, including steps and roles, is a PA responsibility, whereas language assets can be managed by both the PA and the NPM.</p>
+<blockquote>
+<p>Tasks reserved for the PA are marked with a lock: <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2zm-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3"/></svg></span></p>
+</blockquote>
+<h2 id="01_preparation-workflow-types">Workflow types<a class="headerlink" href="#01_preparation-workflow-types" title="Permanent link">&para;</a></h2>
+<p>A workflow type can be thought of as a template containing certain workflow properties, including the sequence of steps, that all workflows of that type will have and will be used to process a batch for every locale in a job. The PA creates and maintains workflow types for the program, whereas NPMs select one of them when creating workflows for a specific job.</p>
+<!-- NPM can skip locales -->
+<!-- NPM can select one different type for different workflows for a certain job -->
+
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The PA should configure workflow types to match the tasks required in the program. The workflow types used here, e.g. as <code>SINGLE-TRANSLATION</code> and <code>TRA-REV-VER-REF</code>, are examples of workflow types that could have been created by the PA. </p>
+</div>
+<!-- 
+![Workflow type list](_assets/img/page-09.png)
+
+/// caption
+The image above shows a workflow type created by the PA with the descriptive name `SINGLE-TRANSLATION`.
+///
+-->
+
+<figure>
+<p><img alt="Adding a workflow type" src="../_assets/img/page-11.png" /></p>
+<figcaption>
+<p>The image above shows two workflow types created by the PA with descriptive names <code>SINGLE-TRANSLATION</code> and <code>TRA-REV-VER-REF</code>.</p>
+</figcaption>
+</figure>
+<h3 id="01_preparation-fixed-and-configurable-steps">Fixed and configurable steps<a class="headerlink" href="#01_preparation-fixed-and-configurable-steps" title="Permanent link">&para;</a></h3>
+<p>Every workflow type includes three fixed system-defined steps, which cannot be removed or moved to a different position:</p>
+<ul>
+<li><strong>INIT</strong> — the initial step, before the workflow has started</li>
+<li><strong>setup</strong> — the step immediately after <code>INIT</code></li>
+<li><strong>DONE</strong> — the final step, after the workflow has been finalized</li>
+</ul>
+<!-- pending, closed -->
+
+<p>The PA can add, remove and reorder the steps between <code>setup</code> and <code>DONE</code>.</p>
+<p>For each configurable step, the PA can:</p>
+<ul>
+<li>define the step name</li>
+<li>decide its position in the sequence</li>
+<li>mark it as <strong>required</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg></span></li>
+<li>indicate whether it is an <strong>OmegaT</strong> step</li>
+<li>activate or deactivate it</li>
+</ul>
+<p>A step marked <strong>required</strong> cannot be skipped manually by the NPM in the TMS. It must be completed in OmegaT (or moved by the PA if needed).</p>
+<p>The <strong>OmegaT</strong> option must be checked for every step that represents a language task (to be performed in OmegaT). This may include tasks like translation (where the target version must be produced) or review, verification, adjudication and the like (where the target version may be edited). Steps that are administrative and do not involve an OmegaT task should not be marked as OmegaT steps.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The exact field names in the workflow type creation form may vary with the current interface. </p>
+</div>
+<figure>
+<p><img alt="Workflow steps, including OmegaT and required settings" src="../_assets/img/page-10.png" /></p>
+<figcaption>
+<p>The image above shows a workflow type including four language tasks, one of which is required: translation, review, verification (required) and adjudication.</p>
+</figcaption>
+</figure>
+<h3 id="01_preparation-managing-workflow-types">Managing workflow types <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2zm-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3"/></svg></span><a class="headerlink" href="#01_preparation-managing-workflow-types" title="Permanent link">&para;</a></h3>
+<p>To create or maintain a workflow type:</p>
+<ol>
+<li>Open the workflow type module.</li>
+<li>Select <strong>Add workflow type</strong> to create a new template, or open an existing type clicking on <strong>Details</strong>.</li>
+<li>Define the workflow type's identifying information and status.</li>
+<li>Configure the steps between the fixed <code>setup</code> and <code>DONE</code> steps, adding, removing or sorting them as suitable.</li>
+<li>For each language task step, select <strong>OmegaT</strong>. </li>
+<li>Mark <strong>required</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg></span> if you do not want the NPM to be able to skip the step manually.</li>
+<li>Save the workflow type and ensure that it is active if it should be available to NPMs for new workflows.</li>
+</ol>
+<h2 id="01_preparation-user-roles">User roles<a class="headerlink" href="#01_preparation-user-roles" title="Permanent link">&para;</a></h2>
+<p>The user list displays the users configured in cAliper, including their username as well as their scope, step and locale restrictions. The scope determines what level a user has access to (the whole program, a specific country, or specific locales) whereas the step and locale restrictions specify what projects users will be assigned to.</p>
+<p><img alt="User list" src="../_assets/img/page-12.png" /></p>
+<!-- 
+The PA defines the roles that are available in the system and their scopes. 
+-->
+
+<div class="admonition example inline end">
+<p class="admonition-title">Example</p>
+<p>If the PA created role <code>reviser</code> for step "revision" in a certain workflow type, when the NPM creates a workflow for locale <code>qpm-IS</code> based on that workflow type, that workflow will have user <code>qpm-IS_reviser</code> assigned to step "revision".</p>
+</div>
+<p>The PA defines roles and assigns them to the steps of a workflow type. When a NPM creates workflows, specific users for that workflow are created based on the roles pre-defined by the PA. Users created for a specific workflow will have access to that workflow (i.e. to the batch in that locale) but not to other workflows. On the other hand, the NPM can add other existing users to a workflow if needed.</p>
+<p>In a nutshell, the PA defines roles and roles become users when NPM creates workflows.</p>
+<!-- todo: Managing roles and users -->
+
+<h2 id="01_preparation-language-assets">Language assets<a class="headerlink" href="#01_preparation-language-assets" title="Permanent link">&para;</a></h2>
+<p>Language assets include:</p>
+<ul>
+<li><strong>Translation memories (TMs)</strong>: contain validated translations that can be reused during translation, e.g. from previous cycles of a program.</li>
+<li><strong>Bilingual glossaries</strong>: contain validated terminology and phraseology, e.g. terms or expressions that must be translated a certain way.</li>
+<li><strong>Translation and adaptation (T&amp;A) notes</strong>: contain instructions and information that help the linguists deal with a certain difficulty or comply with certain requirements.</li>
+</ul>
+<h3 id="01_preparation-managing-language-assets">Managing language assets<a class="headerlink" href="#01_preparation-managing-language-assets" title="Permanent link">&para;</a></h3>
+<p>Click on <strong>Add asset</strong> to add a resource. </p>
+<p>Existing assets can be edited or deleted from the list.</p>
+<figure>
+<p><img alt="Language asset list" src="../_assets/img/page-08.png" /></p>
+<figcaption>
+<p>The asset list shows each asset's file name, type, language, program, tags and available actions. </p>
+</figcaption>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Language assets must be prepared before creating workflows. When creating a workflow, cAliper will suggests language assets that match the workflow properties, based on the assets available in the system. </p>
+</div>
+<!-- todo: move to workflow creation -->
+
+<p>The NPM must review the suggestions for each locale, and change the selection as suitable, adding new assets or clearing suggested ones if not appropriate.</p>
+<p><img alt="Selecting language assets when creating a workflow" src="../_assets/img/page-15.png" /></p>
+<!-- todo: move to workflow creation -->
+<div class="admonition warning">
+<p class="admonition-title">NPM responsibility</p>
+<p>It is the NPM's responsibility to check the suggested assets for every locale before saving the new workflow. It should not be assumed that the suggested assets will always be appropriate for every locale in a job.</p>
+</div>
+<p><a class="md-button md-button-right" href="#02_jobs">Next: Jobs <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="02_jobs" heading-number="3"><h1 id="02_jobs-jobs">Jobs<a class="headerlink" href="#02_jobs-jobs" title="Permanent link">&para;</a></h1>
+<p>Translation requests from users or clients are organized in "jobs". This section of the guide discusses jobs.</p>
+<h2 id="02_jobs-understanding-jobs">Understanding jobs<a class="headerlink" href="#02_jobs-understanding-jobs" title="Permanent link">&para;</a></h2>
+<p>When a batch is released by the survey platform, it is sent to cAliper with the list of expected target locales and associated information. cAliper registers it as a job with a status indicating that it is available for processing.</p>
+<p><img alt="Send batch to create job" src="../_assets/img/caliper-api-3.png" /></p>
+<blockquote>
+<p>The batch may also be uploaded by a cAliper user (e.g. the PA).</p>
+</blockquote>
+<p>The list of incoming jobs provides an overview of the jobs and provides information such as the job ID, external ID, request date, program, batch, number of locales, status and available actions.</p>
+<!-- external ID? -->
+
+<figure>
+<p><img alt="Incoming jobs" src="../_assets/img/page-13.png" /></p>
+<figcaption>
+<p>The <strong>Create workflows</strong> button is active before creating workflows for a job.</p>
+</figcaption>
+</figure>
+<h2 id="02_jobs-viewing-job-details">Viewing job details<a class="headerlink" href="#02_jobs-viewing-job-details" title="Permanent link">&para;</a></h2>
+<p>Click on <strong>Details</strong> to inspect a job before creating its workflows. The job details include identifying information such as the program, batch, callback URL and status. The locale list shows each target language and its current state; the files section lists the files included in the batch.</p>
+<p><img alt="Job details and queued locales" src="../_assets/img/page-14.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">NPM</p>
+<p>Check the job details to confirm that you are working on the intended batch and to see which locales remain queued.</p>
+</div>
+<h2 id="02_jobs-creating-workflows">Creating workflows<a class="headerlink" href="#02_jobs-creating-workflows" title="Permanent link">&para;</a></h2>
+<p>To create workflows for a job, click on the <strong>Create workflows</strong> button. </p>
+<!-- 
+[Continue to Job creation :material-arrow-right:](jobs.md)
+
+[See Job assignment :material-link-variant:](workflow.md#job-assignment)
+-->
+
+<p><a class="md-button md-button-right" href="#03_workflows">Next: Workflows <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="03_workflows" heading-number="4"><h1 id="03_workflows-workflows">Workflows<a class="headerlink" href="#03_workflows-workflows" title="Permanent link">&para;</a></h1>
+<p>A new job means that the client or the user has requested the translation of a batch into a number of target languages (or locales). To process the batch in each locale, a workflow must be created for that locale. A workflow is, therefore, the mechanism to manage and monitor each of the translations of a given batch or job. This section discusses workflows.</p>
+<h2 id="03_workflows-creating-workflows">Creating workflows<a class="headerlink" href="#03_workflows-creating-workflows" title="Permanent link">&para;</a></h2>
+<p>The NPM processes the locales in a job one by one. A separate workflow must be created explicitly for each locale. This allows the NPM to confirm or customise the language assets for that particular project.</p>
+<p>The NPM may skip a locale and move to the next queued locale. If a locale is skipped in this workflow creation sequence, a workflow is not created for that locale. The NPM may return to it later if it needs to be processed.</p>
+<!-- 
+!!! info
+    Before creating workflows, the NPM should:
+
+    - Confirm that the correct job and batch have arrived.
+    - Check which locales need to be processed.
+    - Confirm that the necessary language assets are available.
+    - Check that the users needed for the workflow exist and have the appropriate scope, locale and step assignments.
+    - Confirm with the PA that an appropriate active workflow type is available.
+-->
+
+<p>To start, select <strong>Create workflows</strong> for the queued job to be processed, or open the job details and select <strong>Create workflows</strong> there.</p>
+<p><img alt="Starting workflow creation from the jobs list" src="../_assets/img/page-13.png" /></p>
+<h3 id="03_workflows-configure-each-workflow">Configure each workflow<a class="headerlink" href="#03_workflows-configure-each-workflow" title="Permanent link">&para;</a></h3>
+<p>For each queued locale:</p>
+<ol>
+<li>Make sure the locale displayed is the intended target language.</li>
+<li>Select the appropriate workflow type.</li>
+<li>Review the suggested language assets (glossaries, TMs, notes), if any, and remove them or add more as needed.</li>
+<li>Select <strong>Save workflow / Next language</strong> to save the workflow for this locale and continue to the next queued locale.</li>
+</ol>
+<p><img alt="Configuring a locale and saving its workflow" src="../_assets/img/page-15.png" /></p>
+<p>Repeat the sequence above until all locales that should be processed have a workflow and appear "in progress". When no queued locales remain, cAliper will indicate that there are no "queued" locales left for the job. The progress area shows the state of the locales processed so far.</p>
+<figure>
+<p><img alt="Job after processing the queued locales" src="../_assets/img/page-16.png" /></p>
+<figcaption>
+<p>The progress area on the right-hand side shows the state of the locales processed so far.</p>
+</figcaption>
+</figure>
+<div class="admonition success">
+<p class="admonition-title">Important</p>
+<p>Creating a workflow for one locale does not create workflows for the other locales in the same job. Check the progress list to ensure that every locale requiring work has been handled.</p>
+</div>
+<h2 id="03_workflows-workflow-management">Workflow management<a class="headerlink" href="#03_workflows-workflow-management" title="Permanent link">&para;</a></h2>
+<p>The Workflows view displays the list of workflows, which allows the PA or NPM to keep track of the progress of each locale for each batch.</p>
+<h3 id="03_workflows-workflow-list-and-filters">Workflow list and filters<a class="headerlink" href="#03_workflows-workflow-list-and-filters" title="Permanent link">&para;</a></h3>
+<div class="admonition info inline end">
+<p class="admonition-title">Info</p>
+<p>The PA can view all locales. The NPM sees only the locales belonging to their country or region. </p>
+</div>
+<p>Open the <strong>Workflows</strong> section to monitor the workflows available within your scope. The list can be filtered by fields such as program, batch, locale, workflow type, or current step. You can also select how many rows to display before applying the filters. </p>
+<p>For each workflow, the list of workflows shows the workflow ID, program, batch, locale, workflow type, current step and available actions.</p>
+<figure>
+<p><img alt="Workflow list and filters" src="../_assets/img/page-17.png" /></p>
+<figcaption>
+<p>The Workflows view shows the list of workflows and the filter criteria.</p>
+</figcaption>
+</figure>
+<h3 id="03_workflows-workflow-properties">Workflow properties<a class="headerlink" href="#03_workflows-workflow-properties" title="Permanent link">&para;</a></h3>
+<p>Click on <strong>Details</strong> to open an individual workflow. The upper section of the page shows the constant properties of the workflow such as the program, batch, locale, version and job ID.</p>
+<p>The lower part includes the following tabs:</p>
+<h4 id="03_workflows-steps">Steps<a class="headerlink" href="#03_workflows-steps" title="Permanent link">&para;</a></h4>
+<p>The <strong>Steps</strong> tab shows the sequence of steps in the workflow and the current step is highlighted (see <a href="#03_workflows-monitoring-progress">Monitoring progress</a> below). The buttons <strong>Previous step</strong> and <strong>Next step</strong> allow to move the workflow on this page.</p>
+<h4 id="03_workflows-project-credentials">Project &amp; Credentials<a class="headerlink" href="#03_workflows-project-credentials" title="Permanent link">&para;</a></h4>
+<p>The <strong>Project &amp; Credentials</strong> tab displays the project URL(s) and the credentials associated with the project(s) that the OmegaT users must use to authenticate. There are different credentials for each step.</p>
+<figure>
+<p><img alt="Project URL and downloadable repository credentials" src="../_assets/img/page-21.png" /></p>
+<figcaption>
+<p>The <strong>Project</strong> tab shows the project URL and the credentials.</p>
+</figcaption>
+</figure>
+<h4 id="03_workflows-files">Files<a class="headerlink" href="#03_workflows-files" title="Permanent link">&para;</a></h4>
+<p>The <strong>Files</strong> tab shows the files included in the batch submitted for translation. You may download the files directly from here if you need to inspect them or share them with other parties who don't have access to the OmegaT project.</p>
+<h4 id="03_workflows-history">History<a class="headerlink" href="#03_workflows-history" title="Permanent link">&para;</a></h4>
+<p>The <strong>History</strong> tab shows a record or log of the events performed in this workflow: files downloaded, transitions, setup, etc. as well as who triggered them and when. </p>
+<h4 id="03_workflows-diff-versions">Diff (versions)<a class="headerlink" href="#03_workflows-diff-versions" title="Permanent link">&para;</a></h4>
+<p>When a workflow has more than one language task (e.g. translation and an editing task) and the linguist responsible for the editing task made some changes to the translation, a diff report may be requested comparing those two steps. </p>
+<p>Diff reports may be requested to compare any pair of steps in the workflow. All generated diff reports are available under this the <strong>Diff</strong> tab.</p>
+<!-- todo: configure what two steps must be compared -->
+<!-- todo: form where the user selects two steps, button Submit, sends request to xDiff API and receives the report as JSON or the link to the xDiff report in cApps, or both -->
+
+<figure>
+<p><img alt="Diff report link in workflow details" src="../_assets/img/page-40.png" /></p>
+<figcaption>
+<p>Generated diff reports are available in the Diff tab.</p>
+</figcaption>
+</figure>
+<!-- 
+ provides a link to the report comparing translation versions at different workflow stages
+-->
+
+<p>The diff report has a tabular form, including columns for the  filename and the segment identifier alongside the source text, the original version and the edited version. This allows the NPM to inspect what changed between the two compared steps without opening the translation project in OmegaT.</p>
+<figure>
+<p><img alt="Example diff report" src="../_assets/img/page-41.png" /> </p>
+<figcaption>
+<p>Example of diff report showing changes in two segments.</p>
+</figcaption>
+</figure>
+<h3 id="03_workflows-monitoring-progress">Monitoring progress<a class="headerlink" href="#03_workflows-monitoring-progress" title="Permanent link">&para;</a></h3>
+<p>The list of workflows provides an overview of the status of all the visible workflows. </p>
+<p>In particular, the <strong>Current step</strong> column indicates where each workflow is in its sequence of pre-defined steps. The step sequence is also displayed in the workflow details, with the current step highlighted.</p>
+<figure>
+<p><img alt="Workflow monitoring list with current steps" src="../_assets/img/page-22.png" /></p>
+<figcaption>
+<p>The <strong>Current step</strong> column shows each workflow's status</p>
+</figcaption>
+</figure>
+<div class="admonition tip inline end">
+<p class="admonition-title">Tip</p>
+<p>Filter by current step to focus on workflows that are at the same step.</p>
+</div>
+<p>The information about the current step information helps you identify workflows that are waiting for a language task to be finalized, have not yet moved beyond setup, or have reached a later stage. The workflow list is also where you can select workflows for bulk actions.</p>
+<p>Click on <strong>Details</strong> to inspect an individual workflow. In particular, the <strong>Steps</strong> tab shows the sequence of steps, where the current step is highlighted.</p>
+<figure>
+<p><img alt="Workflow details and step sequence" src="../_assets/img/page-23.png" /></p>
+<figcaption>
+<p>The current step is highlighted in blue.</p>
+</figcaption>
+</figure>
+<h2 id="03_workflows-actions">Actions<a class="headerlink" href="#03_workflows-actions" title="Permanent link">&para;</a></h2>
+<p>The <strong>Actions</strong> column in the list of workflows includes two buttons in each row: </p>
+<ul>
+<li><strong>Details</strong>: opens the Workflow page</li>
+<li><strong>Next step</strong>: moves the workflow to the next step</li>
+</ul>
+<p>The Workflow page displays several buttons: </p>
+<ul>
+<li><strong>Back to workflows</strong>: returns to the list of workflows</li>
+<li><strong>Previous steps</strong>: moves the workflow to the previous step</li>
+<li><strong>Next step</strong>: moves the workflow to the next step</li>
+</ul>
+<p>A workflow must go through all its steps to be finalized. For language tasks, the workflow moves forward naturally as linguists finalize the task in OmegaT. However, it's also possible to move a workflow forward or backward manually in cAliper if needed: </p>
+<ul>
+<li>Click on the <strong>Next step</strong> button (either in the workflow page or the list of workflows) if you do not wish the linguist to finalize the task in OmegaT</li>
+<li>Click on the <strong>Previous step</strong> button (in the workflow page) if the workflow must be moved backwards and returned to the previous step, e.g. if something is missing, translation is not complete, there's an issue that the user at the previous step must fix in order to continue with subsequent steps, etc.</li>
+</ul>
+<h3 id="03_workflows-workflow-initialization">Workflow initialization<a class="headerlink" href="#03_workflows-workflow-initialization" title="Permanent link">&para;</a></h3>
+<p>After creating a workflow, the current step is <strong>INIT</strong> (or <strong>pending</strong>), which means the workflow is on hold and has not started yet. The NPM is responsible for a couple of actions before any language tasks can take place, namely the NPM must:</p>
+<ul>
+<li>Move the workflow to the <strong>setup</strong> step, so that all OmegaT projects are created and configured accordingly (see <a href="#05_projects">Projects</a>).</li>
+<li>After setup is complete, move the workflow to the step after <strong>setup</strong>, so that the task associated with that step may be performed.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After that point, it's still possible for the NPM to trigger other transitions manually from the workflow manager page (as long as the current step is not "required"), but normally that should only be necessary for tasks that are not performed in OmegaT.</p>
+</div>
+<h3 id="03_workflows-bulk-actions">Bulk actions<a class="headerlink" href="#03_workflows-bulk-actions" title="Permanent link">&para;</a></h3>
+<p>The workflow list supports selecting multiple rows and applying an action to all of them. The selection applies only to the rows currently visible in the list. </p>
+<p>The actions available to apply in bulk are the following: </p>
+<ul>
+<li><strong>Move to next step</strong>: Moves all the selected workflows to the next step.</li>
+<li><strong>Set step</strong>: Moves all the selected workflows to any step in the workflow (not necessarily the next or the previous one). This operation requires the selected workflows to have a uniform workflow type.</li>
+</ul>
+<figure>
+<p><img alt="Bulk workflow transitions" src="../_assets/img/page-20.png" /></p>
+<figcaption>
+<p>Select the workflows you want to apply the same action to.</p>
+</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Before applying a bulk action, check the selected rows carefully, including their locales, workflow types and current steps. Do not assume that selecting workflows on one page selects matching workflows on other pages or outside the current filtered view.</p>
+</div>
+<p><a class="md-button md-button-right" href="#04_transitions">Next: Transitions <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="04_transitions" heading-number="5"><h1 id="04_transitions-workflow-transitions">Workflow transitions<a class="headerlink" href="#04_transitions-workflow-transitions" title="Permanent link">&para;</a></h1>
+<p>The workflows section of this guide touches briefly on moving workflows forward or backwards. That's what we refer to as a transition (from one step to the next). Typically a transition happens when a workflow moves to the next step. This section discusses transitions in more depth.</p>
+<h2 id="04_transitions-mandatory-manual-transitions">Mandatory manual transitions<a class="headerlink" href="#04_transitions-mandatory-manual-transitions" title="Permanent link">&para;</a></h2>
+<p>Certain transitions (when the current step is not an OmegaT step) can only be triggered manually, for example: </p>
+<ul>
+<li>From <strong>INIT</strong> (or <code>pending</code>) step to <strong>setup</strong>, to create projects (see <a href="#05_projects">Projects</a>)</li>
+<li>From <strong>setup</strong> step to the next step, to launch the first task</li>
+</ul>
+<figure>
+<p><img alt="Next-step action in workflow details" src="../_assets/img/page-18.png" /></p>
+<figcaption>
+<p>The NPM must move the workflow forward to start language tasks.</p>
+</figcaption>
+</figure>
+<p>Select <strong>Next step</strong> to move one or more workflows forward. This can be done for one workflow alone or in bulk for several workflows. See the <a href="#03_workflows-actions">Workflows &gt; Actions</a> section for more details.</p>
+<h2 id="04_transitions-transitions-after-language-tasks">Transitions after language tasks<a class="headerlink" href="#04_transitions-transitions-after-language-tasks" title="Permanent link">&para;</a></h2>
+<p>For a step configured as a language task performed in OmegaT, the normal way to complete the step is for the assigned user to finalise the task in OmegaT. cAliper then performs the transition to the next step.</p>
+<p>When an OmegaT user finalises a task, cAliper:</p>
+<ol>
+<li>Synchronises/saves the translations remotely and commits the target files.</li>
+<li>Marks the previous step as completed and moves the workflow to the next step.</li>
+<li>Revokes the previous user's access rights so that they can no longer modify the translations.</li>
+<li>Grants access rights to the user assigned to the next step, who can then authenticate and download the project.</li>
+</ol>
+<!-- ![OmegaT task finalisation advances the workflow](_assets/img/page-39.png) -->
+
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Suppose a <strong>translation</strong> step is finalized in OmegaT and the next step is <strong>review</strong>. Before the task is finalized in OmegaT, the workflow is at <strong>translation</strong> step and the <strong>translator</strong> has access to the project but the <strong>reviewer</strong> does not. When the translator finalizes the task, the workflow moves to <strong>review</strong>, the <strong>translator</strong> loses access to the project and the <strong>reviewer</strong> now has access to the project. The same principle would apply to any other pair of consecutive language tasks.</p>
+</div>
+<h2 id="04_transitions-other-manual-transitions">Other manual transitions<a class="headerlink" href="#04_transitions-other-manual-transitions" title="Permanent link">&para;</a></h2>
+<p>Other than letting the workflow move forward when the OmegaT user finalizes task in OmegaT, the NPM can also move a workflow forward manually from the cAliper interface when necessary, provided the current step is not marked as <strong>required</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg></span>.</p>
+<p>For example, if the task is a review to be performed by a domain expert based on some offline material (a report, exports, a spreadsheet, etc.), who does not work in OmegaT, the domain expert may finalize the task in cAliper (or the NPM may do so on their behalf).</p>
+<p>Or for example, if the linguist has some difficulty connecting to cAliper from OmegaT but has confirmed that their task is complete, the NPM may finalize the task in cAliper on their behalf. This should be exceptional, though.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>A <strong>required</strong> step cannot be skipped manually by the NPM. It can be advanced only when the assigned user finalises the task in OmegaT, or when the PA performs the manual transition in the TMS.</p>
+</div>
+<p>On the other hand, besides transitions to and from <strong>step</strong>, any other tasks that are not OmegaT steps can only be finalized in the workflow manager.</p>
+<p>Select <strong>Next step</strong> to move one or more workflows forward. This can be done for one workflow alone or in bulk for several workflows. See the <a href="#03_workflows-actions">Workflows &gt; Actions</a> section for more details.</p>
+<!-- ![Workflow list with individual next-step actions](_assets/img/page-17.png) -->
+
+<!-- Use manual forward transitions only when the work required at the current step has been completed or when the applicable project procedure explicitly allows the step to be bypassed. Do not use the control as a substitute for an OmegaT user's task finalisation when that task is required. -->
+
+<h2 id="04_transitions-backward-transitions">Backward transitions<a class="headerlink" href="#04_transitions-backward-transitions" title="Permanent link">&para;</a></h2>
+<p>A backward transition is intended for correcting an omission or problem from an earlier step. For example, if something that should have been completed during translation was missed and is discovered during review, the NPM may return the workflow to the previous step (translation) so that the issue can be amended before the next task is performed.</p>
+<div class="admonition note">
+<p class="admonition-title">NPM</p>
+<p>Use <strong>Previous step</strong> only when there is a specific reason to return a workflow to an earlier stage. Identify what needs to be corrected and provide instructions for the user responsible for that step. Once the correction is complete, the workflow can proceed through the normal process again.</p>
+</div>
+<!-- comment: in the transition on the TMS = instruction to the user -->
+
+<p><img alt="Previous-step and next-step controls" src="../_assets/img/page-18.png" /></p>
+<h2 id="04_transitions-completion-and-handback">Completion and handback<a class="headerlink" href="#04_transitions-completion-and-handback" title="Permanent link">&para;</a></h2>
+<p>When the last task is finalised, the workflow gets closed (and, if it was a language task performed in OmegaT, translations and target files are saved in the system, and access rights are revoked from the last user). At that point, unlike in other transitions, cAliper sends a callback to the survey platform to indicate that a new target version of the batch is ready and available for collection. </p>
+<p>The survey platform can then collect the target files through the API. This completion and handback process applies to each locale in the job -- a job requested in multiple locales is not fully processed until all locales have been completed.</p>
+<!-- ![Final task closes the workflow and triggers the callback](_assets/img/page-46.png) -->
+
+<p><img alt="Survey-platform callback and retrieval of target files" src="../_assets/img/page-48.png" /></p>
+<blockquote>
+<p>If the job was created by a user upload, the translated batch becomes available for download in cAliper in the Files section of the workflow.</p>
+</blockquote>
+<p><a class="md-button md-button-right" href="#05_projects">Next: Projects <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="05_projects" heading-number="6"><h1 id="05_projects-translation-projects">Translation projects<a class="headerlink" href="#05_projects-translation-projects" title="Permanent link">&para;</a></h1>
+<p>Language tasks take place in a translation editor (or, rather, a CAT tool, of which the translation editor is the main component but which includes many other utilities that optimize the task of the linguists, e.g. increasing quality, reducing effort, etc).</p>
+<blockquote>
+<p>Translation projects in cAliper are OmegaT team projects, hosted in a remote repository, to which OmegaT connects to fetch the project and to keep the project synced with the latest changes.</p>
+</blockquote>
+<h2 id="05_projects-project-setup">Project setup<a class="headerlink" href="#05_projects-project-setup" title="Permanent link">&para;</a></h2>
+<p>OmegaT projects are created to accommodate translation and the rest of language tasks, following the translation industry standards in terms of working environment best practices. Depending on the workflow shape, either one or four projects are created per workflow.</p>
+<details class="tip">
+<summary>Workflow shape</summary>
+<p>cAliper supports two types of workflows, depending on the workflow's shape: linear (i.e. <code>-----</code>) and Y-shaped (i.e. <code>&gt;----</code>). The difference is that Y-shaped workflows include a double-step composed of two twin translation steps (called "double-translation"), followed by a so-called "reconciliation" step where the two initial translations are merged, whereas linear workflows are based on a single translation.</p>
+<p>OmegaT projects are created for a specific batch+locale combination in so-called "linear workflows" and there's one single project per workflow. On the other hand, in Y-shaped workflows, projects are created for a specific batch+locale+step combination, whereby three separate projects are created for the double translation step and for reconciliation, on the one hand, and one forth project is created for the rest of steps, on the other hand.</p>
+</details>
+<p>OmegaT projects are created and configured as expected (depending on the properties selected during the creation of the workflow) when the workflow reaches the <strong>setup</strong> step (see <a href="#03_workflows-workflow-initialization">Workflows &gt; Initialization</a> and <a href="#04_transitions-mandatory-manual-transitions">Transitions &gt; Mandatory Manual Transitions</a>).</p>
+<h2 id="05_projects-project-details">Project details<a class="headerlink" href="#05_projects-project-details" title="Permanent link">&para;</a></h2>
+<p>The workflow page has tabs for the different details, one of which shows the <strong>Project &amp; Credentials</strong> section, which displays the project URL(s) and the credentials associated with the project(s). Credentials are listed individually and can be downloaded using the corresponding <strong>Download</strong> control.</p>
+<figure>
+<p><img alt="Project URL and downloadable repository credentials" src="../_assets/img/page-21.png" /></p>
+<figcaption>
+<p>The <strong>Project</strong> tab shows the project URL and the credentials.</p>
+</figcaption>
+</figure>
+<p>The NPM must share the project URL and the credentials file with each user so that they can access the project and commit their work in it.</p>
+<h2 id="05_projects-user-authentication">User authentication<a class="headerlink" href="#05_projects-user-authentication" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>This section covers only the OmegaT actions that affect workflow coordination. It does not explain how to translate, review or edit content. Users performing language tasks should refer to the separate <a href="https://capstanlqc.github.io/omegat-guides/en/">OmegaT guides</a> for those instructions.</p>
+</blockquote>
+<p>When a workflow reaches an OmegaT step, cAliper grants access to the user assigned to that step. The user must import in OmegaT the credentials provided to them for their step before accessing the repository.</p>
+<!-- ![](_assets/img/page-24.png) -->
+<figure>
+<p><img alt="Import credentials" src="../_assets/img/import-creds.gif" /></p>
+<figcaption>
+<p>The user imports credentials in <strong>Tools</strong> &gt; <strong>Manage credentials</strong>.</p>
+</figcaption>
+</figure>
+<!-- <img src="../assets/videos/demonstration.gif" width="640"> -->
+
+<div class="admonition info">
+<p class="admonition-title">NPM</p>
+<p>The NPM is responsible for sharing the project URL and the credentials with the correct user(s) assigned to each step.</p>
+</div>
+<h2 id="05_projects-project-access">Project access<a class="headerlink" href="#05_projects-project-access" title="Permanent link">&para;</a></h2>
+<p>After importing the credentials, OmegaT can now authenticate to the TMS when the user downloads the team project using <strong>Project &gt; Download Team Project</strong>. After the project has been downloaded, the user performs the assigned task.</p>
+<!-- ![OmegaT Download Team Project command](_assets/img/page-25.png) -->
+<figure>
+<p><img alt="Download project" src="../_assets/img/omt-dl-proj.gif" /></p>
+<figcaption>
+<p>The user downloads the project in <strong>Project</strong> &gt; <strong>Download Team Project</strong>.</p>
+</figcaption>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Only the user assigned to the current step in the workflow can access the project. Users assigned to other steps cannot access the project (anymore or not yet), which prevents collision of tasks. Different users assigned to the same step can, however, access the team project at the same time and team up to accomplish the task.</p>
+</div>
+<h2 id="05_projects-finalising-a-task">Finalising a task<a class="headerlink" href="#05_projects-finalising-a-task" title="Permanent link">&para;</a></h2>
+<p>When the language task is complete, the OmegaT user selects <strong>Project &gt; Workflow &gt; Finalize Task</strong>. </p>
+<figure>
+<p><img alt="OmegaT Finalize Task command" src="../_assets/img/page-34.png" /></p>
+<figcaption>
+<p><strong>Project</strong> &gt; <strong>Workflow</strong> &gt; <strong>Finalize Tasks</strong></p>
+</figcaption>
+</figure>
+<p>The user can enter a comment in the finalisation dialog and then confirm by selecting <strong>Finalize</strong>.</p>
+<figure>
+<p><img alt="Finalisation dialog and comment field" src="../_assets/img/page-35.png" /></p>
+<figcaption>
+<p>The user may add a comment for the NPM or the next step's user.</p>
+</figcaption>
+</figure>
+<p>OmegaT displays a confirmation when the task has been finalised successfully.</p>
+<figure>
+<p><img alt="OmegaT task-finalised confirmation" src="../_assets/img/page-36.png" /></p>
+<figcaption>
+<p>Task finalized successfully.</p>
+</figcaption>
+</figure>
+<p>The successful finalisation triggers the cAliper transition described in <a href="#04_transitions-transitions-after-language-tasks">Transitions after language tasks</a>. The NPM should verify that the workflow has advanced to the expected next step and that the next user can access the project.</p>
+<p><a class="md-button md-button-right" href="#06_support">Next: Support <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></p></section><section class="print-page" id="06_support" heading-number="7"><h1 id="06_support-support">Support<a class="headerlink" href="#06_support-support" title="Permanent link">&para;</a></h1>
+<p><a href="https://www.capstan.be">cApStAn</a> provides support to both cAliper and OmegaT users through their <a href="https://helpdesk.capstan.be/">Helpdesk</a>.</p>
+<h2 id="06_support-caliper">cAliper<a class="headerlink" href="#06_support-caliper" title="Permanent link">&para;</a></h2>
+<p>Should you get stuck while working in cAliper, please register and create a ticket in cApStAn's <a href="https://helpdesk.capstan.be/">Helpdesk</a>.</p>
+<h2 id="06_support-omegat">OmegaT<a class="headerlink" href="#06_support-omegat" title="Permanent link">&para;</a></h2>
+<p>Likewise, should an OmegaT user have an issue or a question related to their task in OmegaT or any aspect not covered in the <a href="https://capstanlqc.github.io/omegat-guides/en/">OmegaT guides</a>, they should create a ticket in cApStAn's <a href="https://helpdesk.capstan.be/">Helpdesk</a> as the fastest way to get help.</p></section></div><style>.print-site-enumerate-headings #00_introduction > h1:before { content: '1 ' }
+
+                .print-site-enumerate-headings #00_introduction h2:before { content: '1.' counter(counter-00_introduction-2) ' ' }
+                .print-site-enumerate-headings #00_introduction h2 {  counter-reset: counter-00_introduction-3 ;  counter-increment: counter-00_introduction-2 }
+            
+                .print-site-enumerate-headings #00_introduction h3:before { content: '1.' counter(counter-00_introduction-2) '.' counter(counter-00_introduction-3) ' ' }
+                .print-site-enumerate-headings #00_introduction h3 {  counter-increment: counter-00_introduction-3 }
+            
+.print-site-enumerate-headings #01_preparation > h1:before { content: '2 ' }
+
+                .print-site-enumerate-headings #01_preparation h2:before { content: '2.' counter(counter-01_preparation-2) ' ' }
+                .print-site-enumerate-headings #01_preparation h2 {  counter-reset: counter-01_preparation-3 ;  counter-increment: counter-01_preparation-2 }
+            
+                .print-site-enumerate-headings #01_preparation h3:before { content: '2.' counter(counter-01_preparation-2) '.' counter(counter-01_preparation-3) ' ' }
+                .print-site-enumerate-headings #01_preparation h3 {  counter-increment: counter-01_preparation-3 }
+            
+.print-site-enumerate-headings #02_jobs > h1:before { content: '3 ' }
+
+                .print-site-enumerate-headings #02_jobs h2:before { content: '3.' counter(counter-02_jobs-2) ' ' }
+                .print-site-enumerate-headings #02_jobs h2 {  counter-reset: counter-02_jobs-3 ;  counter-increment: counter-02_jobs-2 }
+            
+                .print-site-enumerate-headings #02_jobs h3:before { content: '3.' counter(counter-02_jobs-2) '.' counter(counter-02_jobs-3) ' ' }
+                .print-site-enumerate-headings #02_jobs h3 {  counter-increment: counter-02_jobs-3 }
+            
+.print-site-enumerate-headings #03_workflows > h1:before { content: '4 ' }
+
+                .print-site-enumerate-headings #03_workflows h2:before { content: '4.' counter(counter-03_workflows-2) ' ' }
+                .print-site-enumerate-headings #03_workflows h2 {  counter-reset: counter-03_workflows-3 ;  counter-increment: counter-03_workflows-2 }
+            
+                .print-site-enumerate-headings #03_workflows h3:before { content: '4.' counter(counter-03_workflows-2) '.' counter(counter-03_workflows-3) ' ' }
+                .print-site-enumerate-headings #03_workflows h3 {  counter-increment: counter-03_workflows-3 }
+            
+.print-site-enumerate-headings #04_transitions > h1:before { content: '5 ' }
+
+                .print-site-enumerate-headings #04_transitions h2:before { content: '5.' counter(counter-04_transitions-2) ' ' }
+                .print-site-enumerate-headings #04_transitions h2 {  counter-reset: counter-04_transitions-3 ;  counter-increment: counter-04_transitions-2 }
+            
+                .print-site-enumerate-headings #04_transitions h3:before { content: '5.' counter(counter-04_transitions-2) '.' counter(counter-04_transitions-3) ' ' }
+                .print-site-enumerate-headings #04_transitions h3 {  counter-increment: counter-04_transitions-3 }
+            
+.print-site-enumerate-headings #05_projects > h1:before { content: '6 ' }
+
+                .print-site-enumerate-headings #05_projects h2:before { content: '6.' counter(counter-05_projects-2) ' ' }
+                .print-site-enumerate-headings #05_projects h2 {  counter-reset: counter-05_projects-3 ;  counter-increment: counter-05_projects-2 }
+            
+                .print-site-enumerate-headings #05_projects h3:before { content: '6.' counter(counter-05_projects-2) '.' counter(counter-05_projects-3) ' ' }
+                .print-site-enumerate-headings #05_projects h3 {  counter-increment: counter-05_projects-3 }
+            
+.print-site-enumerate-headings #06_support > h1:before { content: '7 ' }
+
+                .print-site-enumerate-headings #06_support h2:before { content: '7.' counter(counter-06_support-2) ' ' }
+                .print-site-enumerate-headings #06_support h2 {  counter-reset: counter-06_support-3 ;  counter-increment: counter-06_support-2 }
+            
+                .print-site-enumerate-headings #06_support h3:before { content: '7.' counter(counter-06_support-2) '.' counter(counter-06_support-3) ' ' }
+                .print-site-enumerate-headings #06_support h3 {  counter-increment: counter-06_support-3 }
+            </style>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 cApStAn
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "/caliper-guide/", "features": ["navigation.path", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "toc.follow", "navigation.indexes", "content.footnote.tooltips", {"hidden": "tech"}], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../js/print-site.js"></script>
+      
+    
+  </body>
+</html>
