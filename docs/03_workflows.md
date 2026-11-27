@@ -42,7 +42,7 @@ Repeat the sequence above until all locales that should be processed have a work
 The progress area on the right-hand side shows the state of the locales processed so far.
 ///
 
-!!! note "Important"
+!!! success "Important"
     Creating a workflow for one locale does not create workflows for the other locales in the same job. Check the progress list to ensure that every locale requiring work has been handled.
 
 

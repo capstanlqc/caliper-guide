@@ -4,6 +4,20 @@ version: 1.0.0
 docs_dir: docs
 site_url: https://capstanlqc.github.io/caliper-guide
 theme:
+  icon:
+    admonition:
+      note: material/note-text
+      abstract: material/text-box-outline
+      info: material/cog
+      tip: material/lightbulb
+      success: material/check-circle
+      question: material/help-circle
+      warning: material/alert
+      failure: material/close-circle
+      danger: material/alert-octagon
+      bug: material/bug
+      example: material/code-braces
+      quote: material/format-quote-close
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
@@ -55,13 +69,13 @@ markdown_extensions:
       toc_depth: 2-4
   # - md_in_html
   - admonition
+  - pymdownx.details
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
   - tables
   # - footnotes
   # - pymdownx.snippets
-  # - pymdownx.details
   # - pymdownx.critic
   # - pymdownx.caret
   # - pymdownx.keys

@@ -2,8 +2,8 @@
 
 ![](_assets/img/cAliper_1.png){: style="height:200px" }
 
-# Welcome to cAliper User Guide.
-
+#  :wave: Welcome to cAliper User Guide.
+<!-- 👋 -->
 
 
 <!--
@@ -16,4 +16,4 @@
 	:octicons-heart-fill-24:{ .heart }
 -->
 
-Developed with ❤ by [cApStAn](https://www.capstan.be)'s TTT.
+Developed with :white_heart: by [cApStAn](https://www.capstan.be)'s TTT.

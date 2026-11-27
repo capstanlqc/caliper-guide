@@ -10,7 +10,7 @@ Language tasks take place in a translation editor (or, rather, a CAT tool, of wh
 
 OmegaT translations are created to accommodate translation and the rest of language tasks, following the translation industry standards in terms of working environment best practices. Depending on the workflow shape, either one or four projects are created per workflow.
 
-??? info "Workflow shape"
+??? tip "Workflow shape"
     cAliper supports two types of workflows, depending on the workflow's shape: linear (i.e. `-----`) and Y-shaped (i.e. `>----`). The difference is that Y-shaped workflows include a double-step composed of two twin translation steps (called "double-translation"), followed by a so-called "reconciliation" step where the two initial translations are merged, whereas linear workflows are based on a single translation.
 
     OmegaT projects are created for a specific batch+locale combination in so-called "linear workflows" and there's one single project per workflow. On the other hand, in Y-shaped workflows, projects are created for a specific batch+locale+step combination, whereby three separate projects are created for the double translation step and for reconciliation, on the one hand, and one forth project is created for the rest of steps, on the other hand.
