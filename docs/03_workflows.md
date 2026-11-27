@@ -1,7 +1,7 @@
 
 # Workflows
 
-A new job means that the client or the user have requested the translation of a batch into a number of target languages (or locales). To process the batch in each locale, a workflow must be created for that locale. A worfklow is, therefore, the mechanism to manage and monitor each of the translations of a given batch or job. This section discusses workflows.
+A new job means that the client or the user has requested the translation of a batch into a number of target languages (or locales). To process the batch in each locale, a workflow must be created for that locale. A workflow is, therefore, the mechanism to manage and monitor each of the translations of a given batch or job. This section discusses workflows.
 
 ## Creating workflows
 
@@ -30,7 +30,7 @@ For each queued locale:
 
 1. Make sure the locale displayed is the intended target language.
 2. Select the appropriate workflow type.
-3. Review the suggested language assets (glossares, TMs, notes), if any, and remove them or add more as needed.
+3. Review the suggested language assets (glossaries, TMs, notes), if any, and remove them or add more as needed.
 4. Select **Save workflow / Next language** to save the workflow for this locale and continue to the next queued locale.
 
 ![Configuring a locale and saving its workflow](_assets/img/page-15.png)
@@ -51,7 +51,7 @@ The progress area on the right-hand side shows the state of the locales processe
 
 ## Workflow management
 
-The Workflows view displayes the list of workflows, which allows the PA or NPM to keep track of the progress of each locale for each batch.
+The Workflows view displays the list of workflows, which allows the PA or NPM to keep track of the progress of each locale for each batch.
 
 ### Workflow list and filters
 
@@ -71,7 +71,7 @@ The Workflows view shows the list of workflows and the filter criteria.
 
 ### Workflow properties
 
-Press on **Details** to open a individual workflow. The upper section of the page shows the constant properties of the workflow such as the program, batch, locale, version and job ID.
+Press on **Details** to open an individual workflow. The upper section of the page shows the constant properties of the workflow such as the program, batch, locale, version and job ID.
 
 The lower part includes the following tabs:
 
@@ -98,7 +98,7 @@ The **History** tab shows a record or log of the events performed in this workfl
 
 #### Diff (versions)
 
-When a workflow has more than one language task (e.g. translation and an editing task) and the linguist responsible for the editing task mades some changes to the translation, a diff report may be requested comparing those two steps. 
+When a workflow has more than one language task (e.g. translation and an editing task) and the linguist responsible for the editing task made some changes to the translation, a diff report may be requested comparing those two steps. 
 
 Diff reports may be requested to compare any pair of steps in the workflow. All generated diff reports are available under this the **Diff** tab.
 

@@ -30,7 +30,7 @@ When an OmegaT user finalises a task, cAliper:
 <!-- ![OmegaT task finalisation advances the workflow](_assets/img/page-39.png) -->
 
 !!! example
-    Suppose a **translation** step is finalized in OmegaT and the next step is **review**. Before the task is finalized in OmegaT, the workflow is at **translation** step and the **translator** has access to the project but the **reviewer** does not. When the translator finalizes the task, the workflow moves to **review**, the **translator** loses access to the project and the **reviewer** now has access to the project. The same principle would apply to the any other pair of consecutive language tasks.
+    Suppose a **translation** step is finalized in OmegaT and the next step is **review**. Before the task is finalized in OmegaT, the workflow is at **translation** step and the **translator** has access to the project but the **reviewer** does not. When the translator finalizes the task, the workflow moves to **review**, the **translator** loses access to the project and the **reviewer** now has access to the project. The same principle would apply to any other pair of consecutive language tasks.
 
 ## Other manual transitions
 
@@ -38,7 +38,7 @@ Other than letting the workflow move forward when the OmegaT user finalizes task
 
 For example, if the task is a review to be performed by a domain expert based on some offline material (a report, exports, a spreadsheet, etc.), who does not work in OmegaT, the domain expert may finalize the task in cAliper (or the NPM may do so on their behalf).
 
-Or for example, if the linguist has some difficulty to connect to cAliper from OmegaT but has confirmed that their task is complete, the NPM may finalize the task in cAliper on their behalf. This should be exceptional, though.
+Or for example, if the linguist has some difficulty connecting to cAliper from OmegaT but has confirmed that their task is complete, the NPM may finalize the task in cAliper on their behalf. This should be exceptional, though.
 
 !!! info 
     A **required** step cannot be skipped manually by the NPM. It can be advanced only when the assigned user finalises the task in OmegaT, or when the PA performs the manual transition in the TMS.
