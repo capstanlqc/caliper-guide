@@ -71,7 +71,7 @@ The Workflows view shows the list of workflows and the filter criteria.
 
 ### Workflow properties
 
-Press on **Details** to open an individual workflow. The upper section of the page shows the constant properties of the workflow such as the program, batch, locale, version and job ID.
+Click on **Details** to open an individual workflow. The upper section of the page shows the constant properties of the workflow such as the program, batch, locale, version and job ID.
 
 The lower part includes the following tabs:
 
@@ -162,8 +162,8 @@ The Workflow page displays several buttons:
 
 A workflow must go through all its steps to be finalized. For language tasks, the workflow moves forward naturally as linguists finalize the task in OmegaT. However, it's also possible to move a workflow forward or backward manually in cAliper if needed: 
 
-- Press the **Next step** button (either in the workflow page or the list of workflows) if you do not wish the linguist to finalize the task in OmegaT
-- Press the **Previous step** button (in the workflow page) if the workflow must be moved backwards and returned to the previous step, e.g. if something is missing, translation is not complete, there's an issue that the user at the previous step must fix in order to continue with subsequent steps, etc.
+- Click on the **Next step** button (either in the workflow page or the list of workflows) if you do not wish the linguist to finalize the task in OmegaT
+- Click on the **Previous step** button (in the workflow page) if the workflow must be moved backwards and returned to the previous step, e.g. if something is missing, translation is not complete, there's an issue that the user at the previous step must fix in order to continue with subsequent steps, etc.
 
 ### Workflow initialization
 

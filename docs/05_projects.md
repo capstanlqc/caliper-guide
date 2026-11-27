@@ -8,7 +8,7 @@ Language tasks take place in a translation editor (or, rather, a CAT tool, of wh
 
 ## Project setup
 
-OmegaT translations are created to accommodate translation and the rest of language tasks, following the translation industry standards in terms of working environment best practices. Depending on the workflow shape, either one or four projects are created per workflow.
+OmegaT projects are created to accommodate translation and the rest of language tasks, following the translation industry standards in terms of working environment best practices. Depending on the workflow shape, either one or four projects are created per workflow.
 
 ??? tip "Workflow shape"
     cAliper supports two types of workflows, depending on the workflow's shape: linear (i.e. `-----`) and Y-shaped (i.e. `>----`). The difference is that Y-shaped workflows include a double-step composed of two twin translation steps (called "double-translation"), followed by a so-called "reconciliation" step where the two initial translations are merged, whereas linear workflows are based on a single translation.
@@ -23,7 +23,7 @@ OmegaT projects are created and configured as expected (depending on the propert
 
 ## Project details
 
-The workflow page has several tabs for different details, one of which shows the **Project & Credentials** section, which displays the project URL(s) and the credentials associated with the project(s). Credentials are listed individually and can be downloaded using the corresponding **Download** control.
+The workflow page has tabs for the different details, one of which shows the **Project & Credentials** section, which displays the project URL(s) and the credentials associated with the project(s). Credentials are listed individually and can be downloaded using the corresponding **Download** control.
 
 ![Project URL and downloadable repository credentials](_assets/img/page-21.png)
 /// caption
@@ -60,7 +60,7 @@ The user downloads the project in **Project** > **Download Team Project**.
 ///
 
 !!! info 
-    Only the user assigned to the current step in the workflow can access the project. Users assigned to other users cannot access the project (anymore or not yet), which prevents collision of tasks. Different users assigned to the same step can, however, access the team project at the same time and team up to accomplish the task.
+    Only the user assigned to the current step in the workflow can access the project. Users assigned to other steps cannot access the project (anymore or not yet), which prevents collision of tasks. Different users assigned to the same step can, however, access the team project at the same time and team up to accomplish the task.
 
 ## Finalising a task
 

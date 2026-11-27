@@ -92,7 +92,7 @@ The PA defines the roles that are available in the system and their scopes.
 !!! example inline end
     If the PA created role `reviser` for step "revision" in a certain workflow type, when the NPM creates a workflow for locale `qpm-IS` based on that workflow type, that workflow will have user `qpm-IS_reviser` assigned to step "revision".
 
-The PA defines roles and assigns them to the steps in a workflow type. When a NPM creates workflows, specific users for that workflow are created based on the roles pre-defined by the PA. Users created for a specific workflow will have access to that workflow (i.e. to the batch in that locale) but not to other workflows. The NPM can add other existing users to a workflow if needed.
+The PA defines roles and assigns them to the steps of a workflow type. When a NPM creates workflows, specific users for that workflow are created based on the roles pre-defined by the PA. Users created for a specific workflow will have access to that workflow (i.e. to the batch in that locale) but not to other workflows. On the other hand, the NPM can add other existing users to a workflow if needed.
 
 In a nutshell, the PA defines roles and roles become users when NPM creates workflows.
 
@@ -111,7 +111,7 @@ Language assets include:
 
 ### Managing language assets
 
-Press **Add asset** to add a resource. 
+Click on **Add asset** to add a resource. 
 
 Existing assets can be edited or deleted from the list.
 
